@@ -6,7 +6,7 @@ import StoryWriter from "@/Components/StoryWriter";
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col">
+    <main className=" flex flex-col">
       <section className="flex-1 grid grid-cols-1 lg:grid-cols-2">
         <div className="bg-white flex flex-col space-y-5 justify-center items-center order-1 lg:-order-1 pb-10">
           <Image src={logo} height={250} alt="logo" />
